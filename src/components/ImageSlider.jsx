@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
 import blade from "../assets/blade.jpeg";
-import blower from "../assets/blower.jpeg";
-import industrialHeater from "../assets/industrial.jpeg";
-import industrialTools from "../assets/industrial-tool.jpeg";
+import blower from "../assets/blower-white.jpeg";
+import industrialHeater from "../assets/industrial-white.jpeg";
+import industrialTools from "../assets/industrial-tool-white.jpeg";
 
 const images = [blade, blower, industrialHeater, industrialTools];
 
@@ -21,7 +21,7 @@ const ImageSlider = () => {
   return (
     <div className="relative">
       {/* Image Slider */}
-      <div className="relative h-[350px] overflow-hidden rounded-2xl md:h-[470px]">
+      <div className="relative h-[350px] overflow-hidden rounded-2xl bg-white md:h-[470px]">
         <div
           className="flex h-full transition-transform duration-700 ease-in-out"
           style={{
@@ -32,7 +32,7 @@ const ImageSlider = () => {
           {images.map((image, index) => (
             <div
               key={index}
-              className="h-full"
+              className="h-full bg-white"
               style={{ width: `${100 / images.length}%` }}
             >
               <img
