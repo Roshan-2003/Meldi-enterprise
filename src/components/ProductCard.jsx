@@ -22,20 +22,20 @@ const ProductCard = ({ product }) => {
 
       <div className="flex flex-1 flex-col p-5">
         <div className="flex items-center justify-between gap-2">
-          <p className="text-xs font-semibold uppercase tracking-wider text-blue-600">
-            {product.category?.name || "Industrial Product"}
-          </p>
-          {product.sku && (
+          {/* <p className="text-xs font-semibold uppercase tracking-wider text-blue-600"> */}
+            {/* {product.category?.name || "Industrial Product"} */}
+          {/* </p> */}
+          {/* {product.sku && (
             <span className="text-[11px] font-medium text-gray-400">
               {product.sku}
             </span>
-          )}
+          )} */}
         </div>
 
         <h3 className="mt-2 text-lg font-bold text-slate-900">
           <Link
             to={`/products/${product._id}`}
-            className="hover:text-blue-600 transition"
+            className=" transition"
           >
             {product.name}
           </Link>
@@ -47,7 +47,7 @@ const ProductCard = ({ product }) => {
 
         <Link
           to={`/products/${product._id}`}
-          className="mt-5 flex items-center justify-between border-t border-gray-100 pt-4 text-sm font-semibold text-slate-900 hover:text-blue-600"
+          className="mt-5 flex items-center justify-between border-t border-gray-100 pt-4 text-sm font-semibold text-slate-900 "
         >
           View Details
           <ArrowUpRight size={18} />
@@ -55,7 +55,7 @@ const ProductCard = ({ product }) => {
 
         <Link
           to={`/products/${product._id}#enquiry`}
-          className="mt-3 block rounded-lg bg-slate-900 px-4 py-3 text-center text-sm font-semibold text-white transition hover:bg-blue-700"
+          className="mt-3 block rounded-lg bg-slate-900 px-4 py-3 text-center text-sm font-semibold text-white transition "
         >
           Request a Quote
         </Link>

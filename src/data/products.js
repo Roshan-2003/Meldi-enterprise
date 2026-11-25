@@ -1,8 +1,12 @@
+import blade from "../components/blade-221.png"
+import blower from "../assets/blower01.jpeg"
+import heater from "../assets/heater.jpeg"
+import tools from "../assets/industrial-tool001.jpeg"
 export const fallbackProducts = [
   {
     _id: "prod-bandsaw-m42",
     sku: "IM-BS-M42-01",
-    name: "Bi-Metal M42 Bandsaw Machine Blade",
+    name: "Bi-Metal  Bandsaw Machine Blade",
     category: {
       name: "Bandsaw Machine Blade",
       slug: "bandsaw-machine-blade",
@@ -13,7 +17,7 @@ export const fallbackProducts = [
     minOrderQty: 5,
     inStock: true,
     images: [
-      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&auto=format&fit=crop",
+      blade,
     ],
     features: [
       "8% Cobalt M42 HSS tooth edge for superior wear resistance",
@@ -31,7 +35,7 @@ export const fallbackProducts = [
   {
     _id: "prod-bandsaw-carbide",
     sku: "IM-BS-CT-02",
-    name: "Carbide Tipped Heavy-Duty Bandsaw Blade",
+    name: "Industrial Heater",
     category: {
       name: "Bandsaw Machine Blade",
       slug: "bandsaw-machine-blade",
@@ -42,7 +46,7 @@ export const fallbackProducts = [
     minOrderQty: 2,
     inStock: true,
     images: [
-      "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=800&auto=format&fit=crop",
+      heater,
     ],
     features: [
       "Micro-grain tungsten carbide tips for extreme heat resistance",
@@ -59,7 +63,7 @@ export const fallbackProducts = [
   {
     _id: "prod-blower-centrifugal",
     sku: "IM-BL-CF-03",
-    name: "Centrifugal High-Pressure Industrial Blower",
+    name: " Industrial Blower",
     category: {
       name: "Industrial Blower",
       slug: "industrial-blower",
@@ -70,7 +74,7 @@ export const fallbackProducts = [
     minOrderQty: 1,
     inStock: true,
     images: [
-      "https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&auto=format&fit=crop",
+      blower,
     ],
     features: [
       "Heavy-gauge powder-coated MS / SS304 housing",
@@ -88,7 +92,7 @@ export const fallbackProducts = [
   {
     _id: "prod-blower-axial",
     sku: "IM-BL-AX-04",
-    name: "Axial Flow Exhaust & Ventilation Blower",
+    name: "Industrial Tools",
     category: {
       name: "Industrial Blower",
       slug: "industrial-blower",
@@ -99,7 +103,7 @@ export const fallbackProducts = [
     minOrderQty: 1,
     inStock: true,
     images: [
-      "https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?w=800&auto=format&fit=crop",
+      tools,
     ],
     features: [
       "Cast aluminum aerofoil blades with adjustable pitch angle",
