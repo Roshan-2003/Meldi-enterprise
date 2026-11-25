@@ -7,13 +7,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone / Sales Desk",
-      value: "+91 98765 43210",
+      value: "+91 99983 76277",
       sub: "Mon – Sat, 9:30 AM to 6:30 PM IST",
     },
     {
       icon: Mail,
       title: "Email Inquiries",
-      value: "sales@industrialmart.in",
+      value: "meldienterprise76@gmail.com",
       sub: "Quick quotation turnaround within 24 hrs",
     },
     {
