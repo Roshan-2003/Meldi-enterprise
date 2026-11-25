@@ -1,6 +1,7 @@
 
 import { ArrowRight, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
+import ImageSlider from "./ImageSlider";
 
 const Hero = () => {
   return (
@@ -61,11 +62,7 @@ const Hero = () => {
         </div>
 
         <div className="relative">
-          <img
-            src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=1000"
-            alt="Industrial engineering equipment"
-            className="h-[350px] w-full rounded-2xl object-cover md:h-[470px]"
-          />
+          <ImageSlider/>
 
           <div className="absolute bottom-3 left-3 rounded-xl bg-white p-4 shadow-xl sm:-bottom-5 sm:-left-5 sm:p-5">
             <p className="text-sm font-semibold text-slate-900">
