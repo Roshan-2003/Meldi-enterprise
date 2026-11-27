@@ -109,13 +109,6 @@ const ProductDetail = () => {
 
       {/* Product Overview */}
       <section className="page-container pt-10">
-        <Link
-          to="/products"
-          className="mb-6 inline-flex items-center gap-2 text-sm font-semibold text-slate-700 hover:text-blue-600"
-        >
-          <ArrowLeft size={16} />
-          Back to Products
-        </Link>
 
         <div className="grid gap-10 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm md:grid-cols-2 md:p-10">
           {/* Image */}
